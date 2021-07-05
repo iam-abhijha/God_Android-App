@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="abhi.app.clan.MainActivity">
+
+            <ImageView
+                android:id="@+id/imgDeadshot"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/abhi"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:id="@+id/txtIdDeadshot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GOD∆DeadShot"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:padding="2sp"
+                android:layout_toRightOf="@+id/imgDeadshot"/>
+            <TextView
+                android:id="@+id/txtNameDeadshot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abhinandan Kumar"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="2sp"
+                android:layout_toRightOf="@+id/imgDeadshot"
+                android:layout_below="@id/txtIdDeadshot"/>
+            <TextView
+                android:id="@+id/txtEmailDeadshot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="deadshot@god.com"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="2sp"
+                android:layout_toRightOf="@+id/imgDeadshot"
+                android:layout_below="@+id/txtNameDeadshot"/>
+            <Button
+                android:id="@+id/btnMessageDeadshot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgDeadshot"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Send Message"
+                android:background="#ff6e29"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:onClick="comingSoon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-----------------------------------------"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/btnMessageDeadshot"
+                android:layout_centerHorizontal="true"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="abhi.app.clan.MainActivity">
+
+            <ImageView
+                android:id="@+id/imgPundi"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/satyam"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:id="@+id/txtIdPundi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GOD∆Pundi"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:padding="2sp"
+                android:layout_toRightOf="@+id/imgPundi"/>
+            <TextView
+                android:id="@+id/txtNamePundi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Satyam pandey"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="2sp"
+                android:layout_toRightOf="@+id/imgPundi"
+                android:layout_below="@id/txtIdPundi"/>
+            <TextView
+                android:id="@+id/txtEmailPundi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pundi@god.com"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="2sp"
+                android:layout_toRightOf="@+id/imgPundi"
+                android:layout_below="@+id/txtNamePundi"/>
+            <Button
+                android:id="@+id/btnMessagePundi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgPundi"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Send Message"
+                android:background="#ff6e29"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:onClick="comingSoon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-----------------------------------------"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/btnMessagePundi"
+                android:layout_centerHorizontal="true"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="abhi.app.clan.MainActivity">
+
+            <ImageView
+                android:id="@+id/imgBeast"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/priyanshu"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:id="@+id/txtIdBeast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GOD∆Beast"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:padding="2sp"
+                android:layout_toRightOf="@+id/imgBeast"/>
+            <TextView
+                android:id="@+id/txtNameBeast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Priyanshu Suman"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="2sp"
+                android:layout_toRightOf="@+id/imgBeast"
+                android:layout_below="@id/txtIdBeast"/>
+            <TextView
+                android:id="@+id/txtEmailBeast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="beast@god.com"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="2sp"
+                android:layout_toRightOf="@+id/imgBeast"
+                android:layout_below="@+id/txtNameBeast"/>
+            <Button
+                android:id="@+id/btnMessageBeast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgBeast"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Send Message"
+                android:background="#ff6e29"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:onClick="comingSoon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-----------------------------------------"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/btnMessageBeast"
+                android:layout_centerHorizontal="true"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="abhi.app.clan.MainActivity">
+
+            <ImageView
+                android:id="@+id/imgHackzie"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/vatsal"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:id="@+id/txtIdHackzie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GOD∆Hackzie"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:padding="2sp"
+                android:layout_toRightOf="@+id/imgHackzie"/>
+            <TextView
+                android:id="@+id/txtNameHackzie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="vatsal Nigam"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="2sp"
+                android:layout_toRightOf="@+id/imgHackzie"
+                android:layout_below="@id/txtIdHackzie"/>
+            <TextView
+                android:id="@+id/txtEmailHackzie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hackzie@god.com"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="2sp"
+                android:layout_toRightOf="@+id/imgHackzie"
+                android:layout_below="@+id/txtNameHackzie"/>
+            <Button
+                android:id="@+id/btnMessageHackzie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgHackzie"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Send Message"
+                android:background="#ff6e29"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:onClick="comingSoon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-----------------------------------------"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/btnMessageHackzie"
+                android:layout_centerHorizontal="true"/>
+
+
+        </RelativeLayout>
+
+
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exit From App"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="30dp"
+            android:background="#EB5056"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:onClick="exitButton"/>
+
+    </LinearLayout>
+</ScrollView>
