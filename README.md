@@ -1,4 +1,3 @@
 # God_Android-App
-Just a basic android app using Kotlin. 
-![Screenshot](g1.png)
-![alt text](g2.png)
+![Screen 1](g1.PNG)
+![Screen 2](g2.PNG)
