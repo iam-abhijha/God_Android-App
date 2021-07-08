@@ -1,3 +1,5 @@
 # God_Android-App
-![Screen 1](g1.PNG)
-![Screen 2](g2.PNG)
+Just a basic Android app with login integration<br><br>
+<img src="g1.PNG" width=200>
+<img src="g2.PNG" width=200>
+
